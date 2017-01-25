@@ -1,0 +1,326 @@
+
+
+header{
+	background-color: #fff;
+	border-bottom :solid #eee;
+	border-bottom-width:2px; 
+}
+#header-left{
+	float:left;
+	width:20%;	 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size:20px;
+    margin-left: 40px;
+    clear:both;
+    background-color:#4aaaa5;
+    text-align: center;
+}
+#header-right{
+	background-color: #fff;
+	float:right;
+	width: 10%;
+   	padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:20px;
+    text-align: center;
+}
+
+#pic{
+	float:left;
+	background-image:url("../images/13227204_1162748517110989_4500932326386470597_n.jpg");
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 10px;
+    width:245px;
+    height:280px;
+}
+
+#content{
+	background-color: #fff;
+	float:left;
+    font-size:30px;
+	line-height:30px;
+	padding:20px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+    margin-right:0px;
+    margin-left: 0px;
+    border: 3px solid #ccc;
+    width:60%;
+}
+#content-right{
+	background-color: #fff;
+	float:right;
+	margin-top: 40px;
+    padding:10px;
+	border: 3px solid #ccc;
+    width:22%;
+    height:17%;
+}
+
+#reset
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+body{
+	background-image: url("../images/cheap_diagonal_fabric.png");
+	font-size:20px;
+	line-height:20px;
+	
+}
+
+/*div{
+	clear:both;
+	float:right;
+	margin:20px;
+
+}*/
+h1{
+	font-size:30px;
+    color:#4aaaa5;
+    border-bottom:solid #eee; 
+}
+
+/*#content{
+	clear:both;
+	float:left;
+    font-size:30px;
+	line-height:30px;
+	padding:10px;
+	margin-bottom: 30px;
+    margin-right:0px;
+    margin-left: 0px;
+    border: 3px solid #4aaaa5;
+    width:70%;
+}
+#content-right{
+	clear:both;
+	float:right;
+    font-size:30px;
+	line-height:0px;
+	padding:10px;
+	margin-bottom: 0px;
+    margin-right:0px;
+    margin-left: 0px;
+    border: 3px solid #4aaaa5;
+    width:10%;
+    height:7%;*/
+
+
+#github{
+	overflow:auto;
+	float:left;
+	color:#fff;
+	padding: 20px;
+	margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 15px;
+    width:35px;
+    height:35px;
+}
+#linkedin{
+	float:left;
+	color:#fff;
+	padding: 20px;
+	margin-top: 5px;
+    margin-right: 15px;
+   	width:15px;
+    height:15px;
+
+}
+#gmail{
+	float:left;
+	color:#fff;
+	padding: 20px;
+	margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 15px;
+    width:20px;
+    height:20px;
+}
+#example-name{
+      width:500px;
+      height:30px;
+      border:solid #666;
+      color:#eee;
+
+}
+#example-email{
+		width:500px;
+      	height:30px;
+      	border:solid #666;
+      	color:#eee;
+}
+#example-message{
+		width:500px;
+      	height:150px;
+      	border:solid #666;
+      	color:#eee;
+}
+#submit{
+
+	float:left;
+	width:18%;
+   	padding-top: 20px;
+    padding-bottom:20px;
+    font-size:20px;
+    margin-top:20px;
+    margin-left:0px;
+    clear:both;
+    background-color:#4aaaa5;
+    text-align: center;
+}
+#first-img{
+	float:left;
+	width:90%;
+   	padding-top: 20px;
+    padding-bottom:20px;
+    font-size:20px;
+    margin-top:120px;
+    margin-left:10px;
+    clear:both;
+    background-color:#4aaaa5;
+    text-align: center;	 
+    
+    
+}
+#second-img{
+	float:left;
+	width:90%;
+   	padding-top: 20px;
+    padding-bottom:20px;
+    font-size:20px;
+    margin-top:120px;
+    margin-left:10px;
+    clear:both;
+    background-color:#4aaaa5;
+    text-align: center;	 	 
+    
+}
+#third-img{
+	clear:both;
+	width:90%;
+   	padding-top: 20px;
+    padding-bottom:20px;
+    font-size:20px;
+    margin-top:120px;
+    margin-left:10px;
+    clear:both;
+    background-color:#4aaaa5;
+    text-align: center;	 	 
+    
+}
+#forth-img{
+	float:left;
+	width:90%;
+   	padding-top: 20px;
+    padding-bottom:20px;
+    font-size:20px;
+    margin-top:120px;
+    margin-left:10px;
+    clear:both;
+    background-color:#4aaaa5;
+    text-align: center;	 	 
+    
+}
+#fifth-img{
+	float:left;
+	width:90%;
+   	padding-top: 20px;
+    padding-bottom:20px;
+    font-size:20px;
+    margin-top:120px;
+    margin-left:10px;
+    clear:both;
+    background-color:#4aaaa5;
+    text-align: center;	  
+}
+
+#trivia{
+	clear:both;
+	float:left;
+	margin-left:30px;
+	margin-bottom: 30px;
+	background-image: url("../images/trivia.jpeg");
+	width:300px;
+	height:200px;
+
+}
+#hangman{
+	float:left; 
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-right:20px;
+	background-image: url("../images/hangman.jpeg");
+	width:300px;
+	height:200px;
+
+}
+#rpg-game{
+	float:left;
+	
+	margin-right:20px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	background-image: url("../images/rpg.jpeg");
+	width:300px;
+	height:200px;
+}
+#rut-info{
+	float:left;
+	
+	margin-right:20px;
+	margin-left: 50px;
+	background-image: url("../images/info.jpeg");
+	width:300px;
+	height:200px;
+}
+#rock{
+	clear:both;
+	
+	margin-right:20px;
+	margin-left: 20px;
+	background-image: url("../images/rock.jpeg");
+	width:300px;
+	height:200px;
+}
+
+footer{
+	border-style: solid #eee;
+	width:100%;
+	height:100%;
+	background-color: #666;
+	padding:20px;
+	margin-top:10px;
+	text-align: center;
+	border-top: solid #4aaaa5;
+}
+
+@media screen and (max-width:980px){
+	.wrapper{
+		background-color: #333;
+	}
+	
+	#main-content{
+		width:100%;
+		margin-top:10px;
+	}
+	#content-right{
+		width:100;
+	}
+}
+/*@media screen and (max-device-width:768px){
+	[class*="content"]{
+		 width: 50%;
+	}
+
+}
+@media screen and (max-device-width:640px){
+	[class*="content"]{
+		 width: 50%;
+	}
+
+}*/
