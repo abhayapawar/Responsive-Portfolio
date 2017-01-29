@@ -1,6 +1,11 @@
+.wrapper{
+	width:100%;
+	max-width:960px;
+	margin:0 auto;
+	clear:both;
+}
 
-
-header{
+#masterheader{
 	background-color: #fff;
 	border-bottom :solid #eee;
 	border-bottom-width:2px; 
@@ -20,6 +25,7 @@ header{
 	background-color: #fff;
 	float:right;
 	width: 10%;
+	display:inline-block;
    	padding-top: 20px;
     padding-bottom: 20px;
     font-size:20px;
@@ -28,7 +34,7 @@ header{
 
 #pic{
 	float:left;
-	background-image:url("../images/13227204_1162748517110989_4500932326386470597_n.jpg");
+	background-image:url("../images/profile.jpeg");
     margin-top: 20px;
     margin-right: 40px;
     margin-left: 10px;
@@ -49,14 +55,22 @@ header{
     border: 3px solid #ccc;
     width:60%;
 }
+h2{
+	font-size:30px;
+	color:#4aaaa5;
+	padding:10px;
+	margin-bottom: 10px;
+	border-bottom: 3px solid #ccc;
+}
 #content-right{
 	background-color: #fff;
 	float:right;
 	margin-top: 40px;
-    padding:10px;
-	border: 3px solid #ccc;
-    width:22%;
-    height:17%;
+    padding:20px;
+	border: 1px solid #ccc;
+    width:100%;
+	max-width: 270px;
+    
 }
 
 #reset
@@ -111,35 +125,32 @@ h1{
 
 
 #github{
-	overflow:auto;
-	float:left;
-	color:#fff;
-	padding: 20px;
-	margin-top: 5px;
-    margin-right: 20px;
-    margin-left: 15px;
-    width:35px;
-    height:35px;
+	float: left;
+	max-width: 100%;
+   	color:#fff;
+	margin-top: 8px;
+    margin-right: 5px;
+   
+    
 }
 #linkedin{
 	float:left;
+	max-width: 100%;
 	color:#fff;
-	padding: 20px;
-	margin-top: 5px;
-    margin-right: 15px;
-   	width:15px;
-    height:15px;
+	margin-top: 8px;
+    margin-right: 5px;
+    margin-left: 40px;
+   	
 
 }
 #gmail{
-	float:left;
+	float:right;
+	max-width: 100%;
 	color:#fff;
-	padding: 20px;
 	margin-top: 5px;
-    margin-right: 20px;
-    margin-left: 15px;
-    width:20px;
-    height:20px;
+	margin-right:0px;
+   
+    
 }
 #example-name{
       width:500px;
@@ -188,7 +199,7 @@ h1{
     
 }
 #second-img{
-	float:left;
+	float:right;
 	width:90%;
    	padding-top: 20px;
     padding-bottom:20px;
@@ -214,7 +225,7 @@ h1{
     
 }
 #forth-img{
-	float:left;
+	float:right;
 	width:90%;
    	padding-top: 20px;
     padding-bottom:20px;
@@ -304,23 +315,63 @@ footer{
 		background-color: #333;
 	}
 	
-	#main-content{
+	#content{
+		width:100%;
+		margin-top:10px;
+		float:left;
+	}
+	#content-right{
+		width:100;
+		float:right;
+	}
+}
+@media screen and (max-width:786px){
+	.wrapper{
+		background-color: #4aaaa5;
+	}
+	#header-right{
+		margin:right-20px;
+	}
+	
+	#content{
 		width:100%;
 		margin-top:10px;
 	}
 	#content-right{
+		width:600px;
+		float:left;
+		padding: 20px;
+		margin-right:20px;
+	}
+	body{
+		clear:both;
+		width:100%;
+		margin:0 auto;
+	}
+	footer{
+		width:100%;
+	}
+
+}
+@media screen and (max-width:640px){
+	.wrapper{
+		background-color: red;
+		margin:0 auto;
+	}
+	
+	#content{
+	}
+	#content-right{
 		width:100;
+		float:left;
 	}
-}
-/*@media screen and (max-device-width:768px){
-	[class*="content"]{
-		 width: 50%;
+	#header-left{
+		width:100%;
+		margin-top:10px;
+		
 	}
-
-}
-@media screen and (max-device-width:640px){
-	[class*="content"]{
-		 width: 50%;
+	#header-right{
+		float:left;
+		width:100%;
+		padding:10px;
 	}
-
-}*/
